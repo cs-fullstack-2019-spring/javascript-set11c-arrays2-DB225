@@ -5,6 +5,10 @@
 var numbers = [10,20,30,40,50];
 var quest = parseInt(prompt("Put an index:"));
 
+// KEY: What you have here works, but all you need to do
+alert(numbers[quest]);
+
+// Is ^^^ this
 if(quest === 0){
     alert(numbers[0]);
 }

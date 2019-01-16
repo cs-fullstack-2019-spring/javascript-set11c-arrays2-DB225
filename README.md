@@ -1,3 +1,5 @@
+### KEY: Mostly correct. Good Job. But see comments in Exercise33.js and Exercise 31
+
 # JavaScript_Set11c_Arrays2
 
 Array Reference

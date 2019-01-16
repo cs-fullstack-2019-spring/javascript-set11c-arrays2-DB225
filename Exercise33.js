@@ -4,8 +4,14 @@
 
 var word = ["word1","Word2","Word3"];
 
-do{
+// KEY: A while loop works better for this
+while (true) {
     var quest = prompt("Put a word to add an array:");
+    if (quest==="q") // If entered q then break out of loop
+    {
+    	break;
+    }
+    word.push(quest); // Add the entered word
 }
-while(quest !== "q");
-console.log(word.push(quest));
+// You were pushing word outside of loop so only 'q' was getting added to array
+console.log(word);
